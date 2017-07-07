@@ -181,7 +181,7 @@ public class Client implements Runnable {
 	
 	System.out.println("Iniciando conexão com servidor ...");
 	
-	 Client client = new Client("localhost",5050);
+	 Client client = new Client("cosmos.lasdpc.icmc.usp.br",40004);
 	 client.start();
 	 
 	 System.out.println("Conexão estabelecida com sucesso ...");

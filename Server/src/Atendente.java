@@ -131,6 +131,7 @@ public class Atendente implements Runnable{
 				
 				String mensagem = in.readLine();
 				String envio = "";
+			
 				
 				if("999".equals(mensagem)){
 					for(Candidato candidato : candidatos){

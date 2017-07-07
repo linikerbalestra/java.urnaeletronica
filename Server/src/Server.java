@@ -29,6 +29,7 @@ public class Server implements Runnable {
 	
 	private void open(int porta) throws Exception{
 		
+		System.out.println(porta);
 		server = new ServerSocket(porta);
 		inicializado = true;
 	}
@@ -112,7 +113,7 @@ public class Server implements Runnable {
 		
 		 System.out.println("Iniciando servidor");
 		 
-		 Server server = new Server(5050);  // criando o objeto serversocket 
+		 Server server = new Server(40004);  // criando o objeto serversocket 
 		 server.start();
 		 
 		 System.out.println("Pressione Enter para encerrar o servidor");
